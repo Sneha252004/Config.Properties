@@ -1,0 +1,16 @@
+server:
+  port: 8088
+
+spring: 
+  cloud:
+    admin:
+      url: https://localhost:1101
+
+management:
+  endpoints:
+    web:
+      exposure: 
+        include: "*"
+
+        
+          
