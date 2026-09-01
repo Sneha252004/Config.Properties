@@ -1,16 +1,16 @@
-server:
-  port: 8088
+
 
 spring: 
   cloud:
     admin:
-      url: https://localhost:1101
+      url: https://localhost:1105
 
 management:
   endpoints:
     web:
       exposure: 
         include: "*"
+          message: "welcome to microservices class"
 
         
           
